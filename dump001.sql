@@ -2,11 +2,12 @@ use cadastro;
 
 select * from gafanhotos;
 
-select * from gafanhotos
-where nascimento between '2000-01-01' and '2015-12-31';
 
 select nome from gafanhotos
 where profissao = 'programador' and sexo = 'm';
+
+select * from gafanhotos
+where nascimento between '2000-01-01' and '2015-12-31';
 
 select nome, nacionalidade from gafanhotos
 where sexo = 'F' and nacionalidade = 'Brasil' and nome like 'J%';
